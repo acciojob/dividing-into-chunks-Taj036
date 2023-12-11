@@ -12,8 +12,12 @@ const divide = (arr, n) => {
 		}else{
 			arr2.push(subarr);
 			subarr=[];
+			 sumtrack = 0;
 		}
 	}
+	if (subarr.length > 0) {
+    arr1.push(subarr);
+}
 	  return arr ;
 };
 
